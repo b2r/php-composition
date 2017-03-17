@@ -3,7 +3,10 @@ b2rPHP: ComppositionGenerator
 
 Easy to generate composition php source
 
+[![Build Status](https://travis-ci.org/b2r/php-twig.svg?branch=master)](https://travis-ci.org/b2r/php-composition)
+
 - [CHANGELOG](CHANGELOG.md)
+- [Packagist](https://packagist.org/packages/b2r/composition)
 
 ### Usage
 
