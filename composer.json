@@ -1,0 +1,25 @@
+{
+    "name": "b2r/composition",
+    "type": "library",
+    "description": "Easy to generate composition php source",
+    "keywords": ["composition", "generator"],
+    "homepage": "https://github.com/b2r/php-composition",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "b2r",
+            "email": "b2r.net@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "b2r/twig": "~0.1"
+    },
+    "autoload": {
+        "psr-4": { "b2r\\Component\\Composition\\": "" },
+        "exclude-from-classmap": [
+            "/build/",
+            "/Tests/"
+        ]
+    }
+}
